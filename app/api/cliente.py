@@ -61,3 +61,4 @@ def delete_cliente():
         db.session.delete(cliente)
         db.session.commit()
         return jsonify({'message': 'Cliente excluído com sucesso'})
+#Ola mundo
